@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: aliceblue;
+}
+.restaurant{
+    width: 450px;
+    height: 800px;
+    margin:auto;
+    margin-top: 40px;
+    background-color: #fff;
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-image: url("FB_IMG_16407646596238843.jpg");
+    background-size: cover;
+    padding: 20px 25px;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100%;
+    height:130px;
+    display: flex;
+}
+.foods{
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+}
+.properties{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding:20px 10px;
+    position: relative;
+
+}
+.dis{
+    padding: 5px;
+    
+}
+.button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    right: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: aliceblue;
+}
+hr{
+    width: 85%;
+    margin: auto;
+}
+.card_details{
+    width: 350px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 20px 5px gray;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.input_button{
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+.pay_button{
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(66, 198, 90);
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.pay_button:hover{
+    background-color: rgb(68, 224, 97);
+}
+
+.hidden{
+    display: none;
+}
+.send_menu{
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+
+.req{
+    display: inline-block;
+}
+.hr{
+    width: 100%;
+}
+
+.total{
+    float: right;
+}
+.complete_order{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(66, 198, 90);
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.complete_order:hover{
+    background-color: rgb(68, 224, 97);
+}
+
+.hidden2{
+    display: none;
+}
+.order{
+    text-align: center;
+    margin: 10px;
+}
+ul{
+    padding-left: 45px;
+    padding-right: 45px;
+    list-style-type:none;
+}
+    .remove{
+        margin-left: 5px;
+        font-size: 10px;
+        color: rgb(104, 103, 103);
+    }
+    .remove:hover{
+        color: rgb(51, 51, 51);
+        cursor: pointer;
+    }
+    .price{
+        float: right;
+    }
+.final{
+    width: 350px;
+    height: 60px;
+    background-color: rgb(231, 248, 231);
+    margin: 30px auto;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    color: rgb(46, 126, 70);
+    border-radius: 10px;
+}
+.hidden3{
+    display: none;
+}
+.hidden4{
+    display: none;
+}
+    
